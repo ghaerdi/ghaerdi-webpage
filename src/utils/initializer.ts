@@ -2,7 +2,7 @@ import { SocialLink } from "./types";
 
 export function newSocialLink(title: string, url?: string): SocialLink {
 	const lowerCaseTitle = title.toLowerCase();
-	const path = `src/static/icons/${lowerCaseTitle}.svg`;
+	const path = `/icons/${lowerCaseTitle}.svg`;
 	const description = `${title} white icon`;
 	url ??= `https://${lowerCaseTitle}.com/ghaerdi`;
 

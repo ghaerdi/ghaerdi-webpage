@@ -8,7 +8,7 @@ import Img from "./Img.vue";
       Click to
       <Img
         class="icons-beside-of-text"
-        src="src/static/icons/home.svg"
+        src="icons/home.svg"
         size="20"
         alt="white home icon"
       />

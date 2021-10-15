@@ -34,7 +34,7 @@ defineProps<Props>();
         Click to
         <Img
           class="icons-beside-of-text"
-          src="src/static/icons/github.svg"
+          src="icons/github.svg"
           size="20"
           alt="github white icon"
         />
